@@ -39,7 +39,7 @@ Es necesario instalar las dependencias requeridas y una cuenta en huggingface.co
 
 ### 1. Clonar el repositorio
 ```sh
- git clone https://github.com/tu_usuario/rag_gui.git
+ git clone https://github.com/cafemigao/rag_gui.git
  cd rag_gui
 ```
 
