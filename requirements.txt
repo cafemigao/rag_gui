@@ -1,0 +1,13 @@
+torch
+tk
+pymupdf
+python-docx
+openpyxl
+requests
+langchain
+langchain-community
+langchain-huggingface
+transformers
+sentence-transformers
+faiss-cpu
+gtts
