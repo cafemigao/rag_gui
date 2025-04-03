@@ -7,8 +7,7 @@ Este proyecto es una aplicación de interfaz gráfica basada en Tkinter para rea
 
 Aunque he probado con otros modelos más pequeños, las respuestas alucinaban en demasía. Conservando este modelo y cambiando algunos parámetros de valores, podrás conseguir mejores respuestas y mayor rápidez de ejecución en:
 
-(chunk_size=1000, chunk_overlap=100)
-max_new_tokens=500 
+(chunk_size=1000, chunk_overlap=100) y max_new_tokens=500 
 
 Con estos valores actuales en un computador de los requisitos del sistemas que se definen, deberían tener un poco de paciencia al tratarse de un modelo 'grande' para el computador donde se testea.
 
