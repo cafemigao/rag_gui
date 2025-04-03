@@ -1,13 +1,15 @@
 # Inteligencia Artificial sobre ciberseguridad
 # Andrés Alfaro
 # Proyecto RAG GUI 
-# Interfaz Gráfica para Recuperación Aumentada con Generación
+# Interfaz Gráfica para Recuperación Aumentada con Generación (RAG)
 
-Este proyecto es una aplicación de interfaz gráfica basada en Tkinter para realizar Recuperación Aumentada con Generación (RAG) utilizando un modelo de lenguaje basado en Mistral-7B Usando Python3. Aunque he probado con otros modelos más pequeños, las respuestas alucinaban en demasía. Conservando este modelo y cambiando algunos parámetros de valores, podrás conseguir mejores respuestas y mayor rápidez de ejecución en:
+Este proyecto consiste en una aplicación de interfaz gráfica desarrollada con #Tkinter para implementar Recuperación Aumentada con Generación (RAG), utilizando el modelo de lenguaje #Mistral-7B en #Python 3. Aunque se probaron modelos más pequeños, estos generaban respuestas con excesiva "alucinación". Optimizando los parámetros del modelo Mistral-7B, logré respuestas más precisas y una ejecución más eficiente, aunque eso dependerá del computador donde trabaje. Los valores recomendados son por defecto los he dejado en:
 
-(chunk_size=1000, chunk_overlap=100) y max_new_tokens=500 
+chunk_size=1000, chunk_overlap=100: Para el fraccionamiento del texto.
 
-Con estos valores actuales en un computador de los requisitos del sistemas que se definen, deberían tener un poco de paciencia al tratarse de un modelo 'grande' para el computador donde se testea.
+max_new_tokens=500: Para limitar la longitud de las respuestas generadas.
+
+Con esta configuración, si tienes un equipo decente funcionará, aunque te hará falta un poco de paciencia ya que el modelo es grande y mi ordenador no es precisamente un cohete. Pero si ajustas estos valores a tu gusto, puedes sacarle más jugo, tanto en precisión como en velocidad.
 
 ---
 
