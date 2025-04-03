@@ -3,9 +3,7 @@
 # Proyecto RAG GUI 
 # Interfaz Gráfica para Recuperación Aumentada con Generación
 
-Este proyecto es una aplicación de interfaz gráfica basada en Tkinter para realizar Recuperación Aumentada con Generación (RAG) utilizando un modelo de lenguaje basado en Mistral-7B.
-
-Aunque he probado con otros modelos más pequeños, las respuestas alucinaban en demasía. Conservando este modelo y cambiando algunos parámetros de valores, podrás conseguir mejores respuestas y mayor rápidez de ejecución en:
+Este proyecto es una aplicación de interfaz gráfica basada en Tkinter para realizar Recuperación Aumentada con Generación (RAG) utilizando un modelo de lenguaje basado en Mistral-7B Usando Python3. Aunque he probado con otros modelos más pequeños, las respuestas alucinaban en demasía. Conservando este modelo y cambiando algunos parámetros de valores, podrás conseguir mejores respuestas y mayor rápidez de ejecución en:
 
 (chunk_size=1000, chunk_overlap=100) y max_new_tokens=500 
 
