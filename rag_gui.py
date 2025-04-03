@@ -129,7 +129,7 @@ class RAGGUI:
     def select_file(self):
         file_path = filedialog.askopenfilename(filetypes=[
             ("Todos los archivos", "*.*"), ("Texto", "*.txt"), ("PDF", "*.pdf"),
-            ("Word", "*.docx"), ("Excel", "*.xlsx")
+            ("Word", "*.docx"), ("Excel", "*.xlsx", "*.log")
         ])
         if file_path:
             self.source_entry.delete(0, tk.END)
