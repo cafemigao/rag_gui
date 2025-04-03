@@ -28,7 +28,7 @@ CPU_CORES = cpu_count()
 class RAGGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("Andrés Alfaro - RAG con Mistral")
+        self.root.title("RAG GUI *cafemigao*")
         self.root.geometry("900x600")
         self.root.configure(bg="#F0F4F8")  # Fondo claro
         self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
