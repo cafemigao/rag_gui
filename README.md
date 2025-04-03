@@ -1,5 +1,5 @@
-# Práctica de Formación de Inteligencia Artificial sobre ciberseguridad. 
-# Alumno: Andrés Alfaro.
+# Inteligencia Artificial sobre ciberseguridad. 
+# Andrés Alfaro.
 # Proyecto RAG GUI 
 # Interfaz Gráfica para Recuperación Aumentada con Generación
 
