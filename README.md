@@ -15,7 +15,7 @@ Con estos valores actuales en un computador de los requisitos del sistemas que s
 ---
 
 ## Características
-- Carga de documentos en formato TXT, PDF, DOCX y XLSX.
+- Carga de documentos en formato HTML, TXT, PDF, DOCX, XLSX, LOGS.
 - Procesamiento de documentos para extraer y fragmentar su contenido.
 - Indexación de texto mediante FAISS y embeddings de HuggingFace 
 - Generación de respuestas a preguntas sobre los documentos cargados.
@@ -65,7 +65,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 ## Ejecución del programa
 Para iniciar la interfaz, ejecuta el siguiente comando:
 ```sh
-python rag_gui.py
+python3 rag_gui.py
 ```
 
 ---
@@ -101,6 +101,6 @@ gtts
 ---
 
 ## Licencia
-Este proyecto está bajo la licencia MIT. Puedes ver más detalles en el archivo `LICENSE`.
+Este proyecto está bajo la licencia GPL v3 . Puedes ver más detalles en el archivo `LICENSE.md`.
 
 
