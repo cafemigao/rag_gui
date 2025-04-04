@@ -1,6 +1,5 @@
-# Inteligencia Artificial sobre ciberseguridad
 # Andrés Alfaro
-# Proyecto RAG GUI 
+# RAG GUI 
 # Interfaz Gráfica para Recuperación Aumentada con Generación (RAG)
 
 Este proyecto consiste en una aplicación de interfaz gráfica desarrollada con #Tkinter para implementar Recuperación Aumentada con Generación (RAG), utilizando el modelo de lenguaje #Mistral-7B en #Python 3. Aunque se probaron modelos más pequeños, estos generaban respuestas con excesiva "alucinación". Optimizando los parámetros del modelo Mistral-7B, logré respuestas más precisas y una ejecución más eficiente, aunque eso dependerá del computador donde trabaje. Los valores recomendados por defecto los he dejado en:
