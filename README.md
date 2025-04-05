@@ -1,6 +1,6 @@
 # Andrés Alfaro
 # RAG GUI 
-# Interfaz Gráfica RAG local(Recuperación Aumentada con Generación)
+# Recuperación Aumentada con Generación RAG
 
 ![Interfaz principal de RAG GUI](https://raw.githubusercontent.com/cafemigao/rag_gui/main/rag_gui-.png)
 
