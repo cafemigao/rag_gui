@@ -2,6 +2,8 @@
 # RAG GUI 
 # Interfaz Gráfica para Recuperación Aumentada con Generación (RAG)
 
+![Interfaz principal de RAG GUI](https://raw.githubusercontent.com/cafemigao/rag_gui/main/rag_gui-.png)
+
 Este proyecto consiste en una aplicación de interfaz gráfica desarrollada con **Tkinter** para implementar Recuperación Aumentada con Generación (RAG), utilizando el modelo de lenguaje **Mistral-7B** en **Python 3**. Aunque se probaron modelos más pequeños, estos generaban respuestas con excesiva "alucinación". Optimizando los parámetros del modelo Mistral-7B, logré respuestas más precisas y una ejecución más eficiente, aunque eso dependerá del computador donde trabaje. Los valores recomendados por defecto los he dejado en:
 
 - `chunk_size=1000`, `chunk_overlap=100`: Para el fraccionamiento del texto.
@@ -9,7 +11,6 @@ Este proyecto consiste en una aplicación de interfaz gráfica desarrollada con 
 
 Con esta configuración, si tienes un equipo decente funcionará, aunque te hará falta un poco de paciencia ya que el modelo es grande y mi ordenador no es precisamente un cohete. Pero si ajustas estos valores a tu gusto, puedes sacarle más jugo, tanto en precisión como en velocidad.
 
-![Interfaz principal de RAG GUI](https://raw.githubusercontent.com/cafemigao/rag_gui/main/rag_gui-.png)
 
 ---
 
@@ -34,6 +35,8 @@ El software ha sido testeado y funciona correctamente en un equipo con las sigui
 - **Aceleración por hardware:** Soporte para CUDA opcional para mejorar el rendimiento con GPU.
 
 ---
+
+![Interfaz principal de RAG GUI](https://raw.githubusercontent.com/cafemigao/rag_gui/main/rag_gui-respuesta.png)
 
 ## Instalación y Dependencias
 Es necesario instalar las dependencias requeridas y una cuenta en [huggingface.co](https://huggingface.co/). Comprobar en -> *Gated Repositories* el modelo "accepted" y un Token de HuggingFace en -> *Access Tokens*. Para ejecutar este proyecto, puedes hacer esto con los siguientes comandos:
