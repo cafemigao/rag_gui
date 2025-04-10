@@ -39,7 +39,10 @@ El software ha sido testeado y funciona correctamente en un equipo con las sigui
 ![Interfaz principal de RAG GUI](https://raw.githubusercontent.com/cafemigao/rag_gui/main/rag_gui-respuesta.png)
 
 ## Instalación y Dependencias
-Es necesario instalar las dependencias requeridas y una cuenta en [huggingface.co](https://huggingface.co/). Comprobar en -> *Gated Repositories* el modelo "accepted" y un Token de HuggingFace en -> *Access Tokens*. Para ejecutar este proyecto, puedes hacer esto con los siguientes comandos:
+Es necesario instalar las dependencias requeridas y una cuenta en [huggingface.co](https://huggingface.co/). Comprobar en -> *Gated Repositories* el modelo "accepted" y un Token de HuggingFace en -> *Access Tokens*.
+
+### ¿Por qué no hay token en este caso?
+No necesitas un token de Hugging Face porque este código no depende de la API de inferencia en la nube. Descarga el modelo público Mistral-7B-Instruct-v0.2 directamente del Hub y lo ejecuta localmente, evitando cualquier interacción con los servidores de Hugging Face que requerirían autenticación. Para ejecutar este proyecto, puedes hacer esto con los siguientes pasos:
 
 ### 1. Clonar el repositorio
 ```sh
@@ -52,8 +55,6 @@ python -m venv venv
 source venv/bin/activate  # En Linux/macOS
 venv\Scripts\activate     # En Windows
 ```
-### ¿Por qué no hay token en este caso?
-No necesitas un token de Hugging Face porque este código no depende de la API de inferencia en la nube. Descarga el modelo público Mistral-7B-Instruct-v0.2 directamente del Hub y lo ejecuta localmente, evitando cualquier interacción con los servidores de Hugging Face que requerirían autenticación.
 
 ### 3. Instalar dependencias
 ```sh
