@@ -52,6 +52,8 @@ python -m venv venv
 source venv/bin/activate  # En Linux/macOS
 venv\Scripts\activate     # En Windows
 ```
+### ¿Por qué no hay token en este caso?
+No necesitas un token de Hugging Face porque este código no depende de la API de inferencia en la nube. Descarga el modelo público Mistral-7B-Instruct-v0.2 directamente del Hub y lo ejecuta localmente, evitando cualquier interacción con los servidores de Hugging Face que requerirían autenticación.
 
 ### 3. Instalar dependencias
 ```sh
